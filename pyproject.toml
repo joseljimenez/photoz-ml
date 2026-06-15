@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photoz-utils"
+version = "0.1.0"
+description = "Utilities for photometric redshift preprocessing"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "tables_io",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

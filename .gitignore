@@ -1,0 +1,25 @@
+# Cache de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales / conda
+.venv/
+venv/
+.conda/
+
+# Datos (no se redistribuyen por restricciones de Rubin DP1)
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Archivos de sistema / editor
+.DS_Store
+.vscode/
+.idea/
